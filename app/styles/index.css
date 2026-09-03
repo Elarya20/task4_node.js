@@ -1,0 +1,39 @@
+.app {
+  min-height: 100vh;
+  transition: 0.3s;
+}
+
+.app.light {
+  background-color: #f5f6f8;
+  color: #212529;
+}
+
+.app.dark {
+  background-color: #212529;
+  color: white;
+}
+
+.app.dark .card {
+  background-color: #343a40;
+  color: white;
+}
+
+.app.dark .text-muted {
+  color: #ced4da !important;
+}
+
+.app.dark .form-control {
+  background-color: #495057;
+  color: white;
+  border-color: #6c757d;
+}
+
+.app.dark .form-control::placeholder {
+  color: #ced4da;
+}
+
+.app.dark .list-group-item {
+  background-color: #343a40;
+  color: white;
+  border-color: #495057;
+}
